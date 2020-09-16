@@ -1,0 +1,10 @@
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\bin\Debug\DetergentsData.dacpac
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\obj\Debug\DetergentsData.sqlprojAssemblyReference.cache
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\obj\Debug\Model.xml
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\obj\Debug\refactor.xml
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\obj\Debug\postdeploy.sql
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\obj\Debug\predeploy.sql
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\obj\Debug\DetergentsData.dll
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\obj\Debug\DetergentsData.pdb
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\bin\Debug\DetergentsData.dll
+C:\Users\289663\source\repos\DetergentsData\DetergentsData\bin\Debug\DetergentsData.pdb

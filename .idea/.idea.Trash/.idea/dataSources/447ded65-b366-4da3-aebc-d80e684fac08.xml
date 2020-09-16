@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="DetergentsData">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>13.0.5820</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="Eric">
+      <ObjectId>15</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@IWQSQL01\MSD</Fingerprint>
+    </database>
+    <database id="3" parent="1" name="IBMDBA">
+      <ObjectId>7</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="MSD">
+      <ObjectId>8</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="MSD_ArticleCreation">
+      <ObjectId>11</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="MSD_CPUC">
+      <ObjectId>12</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="MSD_NETSQLAZMAN">
+      <ObjectId>9</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="MSD_PlanningTool">
+      <ObjectId>14</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="MSD_WMS">
+      <ObjectId>13</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="ReportServer$MSD">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="11" parent="1" name="ReportServer$MSDTempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="12" parent="1" name="SSISDB">
+      <ObjectId>10</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Current>1</Current>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@IWQSQL01\MSD</Fingerprint>
+    </database>
+    <database id="14" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <schema id="17" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="21" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="22" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="23" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="24" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="25" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="26" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="27" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2020-09-16.17:55:41.273</IntrospectionTimestamp>
+    </schema>
+    <schema id="28" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+      <Current>1</Current>
+    </schema>
+    <schema id="29" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="30" parent="13" name="DS\Svc-Sql-Msd-Q">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="31" parent="13" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="32" parent="13" name="NT SERVICE\ReportServer$MSD">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="33" parent="13" name="RSExecRole">
+      <ObjectId>7</ObjectId>
+    </schema>
+    <schema id="34" parent="13" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="35" parent="13" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="36" parent="13" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="37" parent="13" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="38" parent="13" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="39" parent="13" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="40" parent="13" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="41" parent="13" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="42" parent="13" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="43" parent="13" name="dbo">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="44" parent="13" name="guest">
+      <ObjectId>2</ObjectId>
+      <IntrospectionTimestamp>2020-09-16.17:55:41.337</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="45" parent="13" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="46" parent="27" name="Category">
+      <ObjectId>725577623</ObjectId>
+      <CreatedTimestamp>2020-09-16.15:14:30.457</CreatedTimestamp>
+      <ModifiedTimestamp>2020-09-16.17:55:34.533</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="27" name="Product">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2020-09-16.17:55:34.530</CreatedTimestamp>
+      <ModifiedTimestamp>2020-09-16.17:55:34.530</ModifiedTimestamp>
+    </table>
+    <column id="48" parent="46" name="CategoryID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="46" name="CategoryName">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="50" parent="46" name="PK__Category__19093A2BA78CF944">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CategoryID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="51" parent="46" name="PK__Category__19093A2BA78CF944">
+      <ObjectId>741577680</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-09-16.15:14:30.600</CreatedTimestamp>
+      <ModifiedTimestamp>2020-09-16.15:14:30.600</ModifiedTimestamp>
+      <ColNames>CategoryID</ColNames>
+      <UnderlyingIndexName>PK__Category__19093A2BA78CF944</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="52" parent="47" name="ProductID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="47" name="EAN">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="47" name="Title">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="47" name="productName">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="47" name="productDescription">
+      <Position>5</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="57" parent="47" name="CategoryID">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="47" name="validFrom">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="59" parent="47" name="PK__Product__B40CC6ED6132F296">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ProductID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="47" name="PK__Product__B40CC6ED6132F296">
+      <ObjectId>1093578934</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-09-16.17:55:34.530</CreatedTimestamp>
+      <ModifiedTimestamp>2020-09-16.17:55:34.530</ModifiedTimestamp>
+      <ColNames>ProductID</ColNames>
+      <UnderlyingIndexName>PK__Product__B40CC6ED6132F296</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="47" name="FK__Product__Categor__4222D4EF">
+      <ObjectId>1109578991</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-09-16.17:55:34.533</CreatedTimestamp>
+      <ModifiedTimestamp>2020-09-16.17:55:34.533</ModifiedTimestamp>
+      <ColNames>CategoryID</ColNames>
+      <RefTableId>725577623</RefTableId>
+      <RefTableName>Category</RefTableName>
+      <RefKeyName>PK__Category__19093A2BA78CF944</RefKeyName>
+      <RefColNames>CategoryID</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

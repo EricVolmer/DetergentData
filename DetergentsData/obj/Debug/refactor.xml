@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="cbc0c614-12c5-4aaa-931b-70dccde8889e" ChangeDateTime="09/16/2020 09:56:51" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Table1]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Detergents]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="828c76e9-c944-438e-8181-286a24e2fe0f" ChangeDateTime="09/16/2020 09:57:19" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Detergents].[col1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Detergents]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EAN" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="45c5a369-74f8-4c05-909c-3cb8cb3aaaf2" ChangeDateTime="09/16/2020 10:51:19" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Table1].[col1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Soap" />
+  </Operation>
+</Operations>
