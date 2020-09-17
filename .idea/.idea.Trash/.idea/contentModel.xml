@@ -41,6 +41,15 @@
         </e>
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
+        <e p="LocalizationAttribute.cs" t="Include" />
+        <e p="LocalizedControllerActivator.cs" t="Include" />
+        <e p="LocalResource" t="Include">
+          <e p="Resource.DA.resx" t="Include" />
+          <e p="Resource.DE.resx" t="Include" />
+          <e p="Resource.Designer.cs" t="Include" />
+          <e p="Resource.PL.resx" t="Include" />
+          <e p="Resource.resx" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="Category.cs" t="Include" />
           <e p="Model1.Context.cs" t="Include" />

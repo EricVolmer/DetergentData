@@ -9,9 +9,13 @@
 
 namespace DetergentData.Models
 {
-    using System;
-    using System.Collections.Generic;
-    
+    using DetergentData.LocalResource;
+    using System;  
+    using System.Collections.Generic;  
+    using System.ComponentModel.DataAnnotations;  
+    using System.Linq;  
+    using System.Web;  
+
     public partial class Category
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,6 +25,7 @@ namespace DetergentData.Models
         }
     
         public int CategoryID { get; set; }
+        [Display(Name = "CategoryName", ResourceType = typeof(Resource))]
         public string CategoryName { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

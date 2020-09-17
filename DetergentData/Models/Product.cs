@@ -12,12 +12,14 @@ namespace DetergentData.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using DetergentData.LocalResource;
     
     public partial class Product
     {
         public int ProductID { get; set; }
         public int EAN { get; set; }
         public string Title { get; set; }
+        [Display(Name = "productName", ResourceType = typeof(Resource))]
         public string productName { get; set; }
         public string productDescription { get; set; }
         public int CategoryID { get; set; }
