@@ -22,182 +22,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c2cc4f5-05f5-48b8-baf0-3567e1dcca05" name="Default Changelist" comment="Localization">
-      <change afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.dk.designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/Controllers/BaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.App_GlobalResources.Resource.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/App_GlobalResources.Resource.Designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/App_GlobalResources.Resource.dk.designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/LocalResource.Resource.DE.Designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/LocalResource.Resource.PL.Designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/Resource.Designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/Resources.Resource.Designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/Strings.Designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Extensions.Primitives.3.1.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Extensions.Primitives.3.1.0/Microsoft.Extensions.Primitives.3.1.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Extensions.Primitives.3.1.0/lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Extensions.Primitives.3.1.0/lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Extensions.Primitives.3.1.0/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Extensions.Primitives.3.1.0/lib/netstandard2.0/Microsoft.Extensions.Primitives.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Extensions.Primitives.3.1.0/packageIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/System.Buffers.4.5.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/net461/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/net461/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/net45/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/net45/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.Buffers.4.5.1/version.txt" afterDir="false" />
+    <list default="true" id="0c2cc4f5-05f5-48b8-baf0-3567e1dcca05" name="Default Changelist" comment="Globalization">
+      <change afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.da-dk.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.da.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/App_Start/CultureFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/DetergentData.csproj.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/bin/da-dk/DetergentData.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/bin/da/DetergentData.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.App_GlobalResources.Resource.da-dk.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.App_GlobalResources.Resource.da.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/da-dk/DetergentData.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/da/DetergentData.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trash/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trash/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trash/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Trash/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Trash/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/App_Start/BundleConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.resx" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/App_Start/FilterConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/App_Start/FilterConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/App_Start/RouteConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/App_Start/RouteConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Controllers/CategoriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Controllers/CategoriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetergentData/Controllers/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Controllers/BaseController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Controllers/ProductsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/DetergentData.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/DetergentData.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Global.asax" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Global.asax" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Global.asax.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/LocalResource/Resource.DA.resx" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.dk.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/LocalResource/Resource.DE.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/LocalResource/Resource.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/App_GlobalResources/Resource.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/LocalResource/Resource.PL.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/LocalResource/Resource.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/LocalizationAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/LocalizedControllerActivator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Models/Category.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/Models/Model1.Context.tt" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Models/Model1.Context.tt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/Models/Model1.tt" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Models/Model1.tt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Models/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Scripts/jquery-3.5.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Scripts/jquery-3.5.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Scripts/jquery-3.5.1.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Scripts/jquery-3.5.1.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Scripts/jquery.validate-vsdoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Scripts/jquery.validate-vsdoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Scripts/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Scripts/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Scripts/modernizr-2.8.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Scripts/modernizr-2.8.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Categories/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Categories/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Categories/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Categories/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Categories/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Categories/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Categories/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Categories/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Categories/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Categories/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Products/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Products/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Products/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Products/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Products/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Products/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Products/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Products/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Products/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Shared/Error.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Views/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/Web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/DA/DetergentData.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/DE/DetergentData.resources.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/bin/DetergentData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/DetergentData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/DetergentData.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/DetergentData.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/bin/DetergentData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/DetergentData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/PL/DetergentData.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/System.Buffers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/System.Buffers.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/System.Buffers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/System.Buffers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/System.Memory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/System.Memory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/System.Numerics.Vectors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/System.Numerics.Vectors.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/bin/System.Numerics.Vectors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/bin/System.Numerics.Vectors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DA/DetergentData.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DE/DetergentData.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.LocalResource.Resource.DA.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.LocalResource.Resource.DE.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.LocalResource.Resource.PL.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.LocalResource.Resource.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.App_GlobalResources.Resource.resources" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.App_GlobalResources.Resource.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/DetergentData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/PL/DetergentData.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/LocalResource.Resource.DA.Designer.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/LocalResource.Resource.DA.Designer.cs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetergentData/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/App_GlobalResources.Resource.Designer.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DetergentData/obj/Debug/TempPE/App_GlobalResources.Resource.Designer.cs.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trash.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Trash.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/System.Buffers.4.4.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/lib/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/lib/netstandard1.1/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/lib/netstandard1.1/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/lib/netstandard2.0/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/lib/netstandard2.0/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/ref/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/ref/netstandard1.1/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/ref/netstandard1.1/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/ref/netstandard2.0/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/ref/netstandard2.0/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Buffers.4.4.0/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/System.Memory.4.5.2.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/lib/netcoreapp2.1/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/lib/netstandard1.1/System.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/lib/netstandard1.1/System.Memory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/lib/netstandard2.0/System.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/lib/netstandard2.0/System.Memory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/ref/netcoreapp2.1/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Memory.4.5.2/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/System.Numerics.Vectors.4.4.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/net46/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/net46/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/netstandard1.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/netstandard1.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/netstandard2.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/netstandard2.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/lib/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/net46/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/net46/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/netstandard1.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/netstandard1.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/netstandard2.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/netstandard2.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/ref/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Numerics.Vectors.4.4.0/version.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,11 +73,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DetergentData/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/DetergentData/Controllers/ProductsController.cs" />
         <option value="447ded65-b366-4da3-aebc-d80e684fac08/database/Eric/schema/dbo/table/Product.sql" />
         <option value="$PROJECT_DIR$/DetergentData/Models/ViewModel.cs" />
-        <option value="$PROJECT_DIR$/DetergentData/Controllers/CategoriesController.cs" />
         <option value="$PROJECT_DIR$/DetergentData/Views/Categories/Index.cshtml" />
         <option value="$PROJECT_DIR$/DetergentData/Views/Categories/Details.cshtml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/447ded65-b366-4da3-aebc-d80e684fac08/console.sql" />
@@ -231,8 +89,6 @@
         <option value="$PROJECT_DIR$/DetergentData/LocalizationAttribute.cs" />
         <option value="$PROJECT_DIR$/DetergentData/LocalizedControllerActivator.cs" />
         <option value="$PROJECT_DIR$/DetergentData/Global.asax.cs" />
-        <option value="$PROJECT_DIR$/DetergentData/Web.config" />
-        <option value="$PROJECT_DIR$/DetergentData/App_Start/FilterConfig.cs" />
         <option value="$PROJECT_DIR$/DetergentData/Resources/Resource.dk.resx" />
         <option value="$PROJECT_DIR$/DetergentData/Resources/Resource.de.resx" />
         <option value="$PROJECT_DIR$/DetergentData/Resources/Resource.pl.resx" />
@@ -240,9 +96,16 @@
         <option value="$PROJECT_DIR$/DetergentData/Models/FullViewModel.cs" />
         <option value="$PROJECT_DIR$/DetergentData/ViewModels/FullViewModel.cs" />
         <option value="$PROJECT_DIR$/DetergentData/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/DetergentData/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/DetergentData/Web.config" />
         <option value="$PROJECT_DIR$/DetergentData/App_Start/RouteConfig.cs" />
         <option value="$PROJECT_DIR$/DetergentData/Controllers/BaseController.cs" />
+        <option value="$PROJECT_DIR$/DetergentData/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/DetergentData/Controllers/CategoriesController.cs" />
+        <option value="$PROJECT_DIR$/DetergentData/Controllers/CultureFilter.cs" />
+        <option value="$PROJECT_DIR$/DetergentData/App_Start/CultureFilter.cs" />
+        <option value="$PROJECT_DIR$/DetergentData/App_Start/FilterConfig.cs" />
+        <option value="$PROJECT_DIR$/DetergentData/Views/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/DetergentData/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -277,7 +140,7 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Web" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
-      <browser url="https://localhost:44382/" name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" start="true" />
+      <browser url="https://localhost:44382/" start="true" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -294,7 +157,7 @@
       <workItem from="1600259614916" duration="11007000" />
       <workItem from="1600332979948" duration="135000" />
       <workItem from="1600333195980" duration="12410000" />
-      <workItem from="1600348400031" duration="6369000" />
+      <workItem from="1600348400031" duration="14548000" />
     </task>
     <task id="LOCAL-00001" summary="Localization">
       <created>1600335375083</created>
@@ -303,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600335375083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Globalization">
+      <created>1600414883846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600414883846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,17 +197,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Localization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Localization" />
+    <MESSAGE value="Globalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Globalization" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="480" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600414734473">
+    <state x="480" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600415180868">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="480" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600414734473" />
-    <state x="718" y="420" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1600413969648">
+    <state x="480" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600415180868" />
+    <state x="718" y="420" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1600421398374">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="718" y="420" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600413969648" />
+    <state x="718" y="420" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600421398374" />
     <state x="740" y="504" key="AddNewCultureDialog" timestamp="1600344988014">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -354,26 +225,26 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="660" y="266" key="Github.UntrackedFilesDialog/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600264973675" />
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom" timestamp="1600414769265">
+    <state width="1877" height="177" key="GridCell.Tab.0.bottom" timestamp="1600423334677">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.bottom/-1366.344.1366.728/0.40.1920.1040@-1366.344.1366.728" timestamp="1600260176902" />
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600414769265" />
-    <state width="1877" height="177" key="GridCell.Tab.0.center" timestamp="1600414769264">
+    <state width="1877" height="177" key="GridCell.Tab.0.bottom/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600423334677" />
+    <state width="1877" height="177" key="GridCell.Tab.0.center" timestamp="1600423334676">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.center/-1366.344.1366.728/0.40.1920.1040@-1366.344.1366.728" timestamp="1600260176902" />
-    <state width="1877" height="177" key="GridCell.Tab.0.center/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600414769264" />
-    <state width="1877" height="177" key="GridCell.Tab.0.left" timestamp="1600414769264">
+    <state width="1877" height="177" key="GridCell.Tab.0.center/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600423334676" />
+    <state width="1877" height="177" key="GridCell.Tab.0.left" timestamp="1600423334676">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.left/-1366.344.1366.728/0.40.1920.1040@-1366.344.1366.728" timestamp="1600260176901" />
-    <state width="1877" height="177" key="GridCell.Tab.0.left/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600414769264" />
-    <state width="1877" height="177" key="GridCell.Tab.0.right" timestamp="1600414769265">
+    <state width="1877" height="177" key="GridCell.Tab.0.left/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600423334676" />
+    <state width="1877" height="177" key="GridCell.Tab.0.right" timestamp="1600423334676">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.right/-1366.344.1366.728/0.40.1920.1040@-1366.344.1366.728" timestamp="1600260176902" />
-    <state width="1877" height="177" key="GridCell.Tab.0.right/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600414769265" />
+    <state width="1877" height="177" key="GridCell.Tab.0.right/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600423334676" />
     <state x="740" y="319" key="ResxEditor.ChooseColumns" timestamp="1600341410592">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -386,18 +257,18 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="733" y="261" key="RiderGenerateDialog/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600262939228" />
-    <state x="461" y="205" key="SettingsEditor" timestamp="1600408931975">
+    <state x="461" y="205" key="SettingsEditor" timestamp="1600420336517">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="461" y="205" key="SettingsEditor/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600408931975" />
+    <state x="461" y="205" key="SettingsEditor/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600420336517" />
     <state x="92" y="132" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1600411528635">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="92" y="132" width="1736" height="856" key="VCS.FileHistoryDialog/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600411528635" />
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1600335408008">
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1600414887093">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600335408008" />
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2/-1366.344.1366.728/0.40.1920.1040@0.40.1920.1040" timestamp="1600414887093" />
     <state x="640" y="319" key="WebReferenceSession.Dialog" timestamp="1600334492115">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

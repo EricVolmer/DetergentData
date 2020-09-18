@@ -83,3 +83,9 @@ C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\DetergentDat
 C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\DetergentData.dll
 C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\DetergentData.pdb
 C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\DetergentData.csprojAssemblyReference.cache
+C:\Users\289663\source\repos\DetergentsData\DetergentData\bin\da-dk\DetergentData.resources.dll
+C:\Users\289663\source\repos\DetergentsData\DetergentData\bin\da\DetergentData.resources.dll
+C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\DetergentData.App_GlobalResources.Resource.da-dk.resources
+C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\DetergentData.App_GlobalResources.Resource.da.resources
+C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\da-dk\DetergentData.resources.dll
+C:\Users\289663\source\repos\DetergentsData\DetergentData\obj\Debug\da\DetergentData.resources.dll

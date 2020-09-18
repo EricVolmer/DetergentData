@@ -123,4 +123,7 @@
   <data name="Introduction" xml:space="preserve">
     <value>What</value>
   </data>
+  <data name="HomeController_Index_Current_culture__" xml:space="preserve">
+    <value>Current culture: </value>
+  </data>
 </root>

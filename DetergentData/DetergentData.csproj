@@ -170,6 +170,7 @@
       <DependentUpon>Resource.dk.resx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\CultureFilter.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
@@ -293,6 +294,8 @@
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>Resource.dk.designer.cs</LastGenOutput>
     </Content>
+    <EmbeddedResource Include="App_GlobalResources\Resource.da-dk.resx" />
+    <EmbeddedResource Include="App_GlobalResources\Resource.da.resx" />
     <EmbeddedResource Include="App_GlobalResources\Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>

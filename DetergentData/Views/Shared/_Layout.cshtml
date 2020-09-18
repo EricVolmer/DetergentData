@@ -31,6 +31,16 @@
     @RenderBody()
     <hr/>
     <footer>
+        @{ 
+            var routeValues = this.ViewContext.RouteData.Values;
+            var controller = routeValues["controller"] as string;
+            var action = routeValues["action"] as string;
+        }
+        <ul>
+            <li>@Html.ActionLink("Danish", @action, @controller, new { culture = "dk" }, new { rel = "alternate", hreflang = "dk" })</li>
+            <li>@Html.ActionLink("English", @action, @controller, new { culture = "en" }, new { rel = "alternate", hreflang = "en" })</li>
+        </ul>
+        
         <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
     </footer>
 </div>

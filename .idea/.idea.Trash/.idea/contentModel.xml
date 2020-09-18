@@ -9,6 +9,8 @@
       <e p="DetergentData" t="IncludeRecursive">
         <e p="App_Data" t="Include" />
         <e p="App_GlobalResources" t="Include">
+          <e p="Resource.da-dk.resx" t="Include" />
+          <e p="Resource.da.resx" t="Include" />
           <e p="Resource.Designer.cs" t="Include" />
           <e p="Resource.dk.designer.cs" t="Include" />
           <e p="Resource.dk.resx" t="Include" />
@@ -16,6 +18,7 @@
         </e>
         <e p="App_Start" t="Include">
           <e p="BundleConfig.cs" t="Include" />
+          <e p="CultureFilter.cs" t="Include" />
           <e p="FilterConfig.cs" t="Include" />
           <e p="RouteConfig.cs" t="Include" />
         </e>

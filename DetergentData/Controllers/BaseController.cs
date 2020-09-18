@@ -10,7 +10,7 @@ namespace DetergentData.Controllers
             ActionExecutingContext filterContext)
         {
             var culture = filterContext.RouteData.Values["culture"]?.ToString()
-                          ?? "dk";
+                          ?? "en";
             // Set the action parameter just in case we didn't get one
             // from the route.
             filterContext.ActionParameters["culture"] = culture;
@@ -26,7 +26,7 @@ namespace DetergentData.Controllers
 
         public ActionResult RedirectToLocalized()
         {
-            return RedirectPermanent("/dk");
+            return RedirectPermanent("/en");
         }
     }
 }

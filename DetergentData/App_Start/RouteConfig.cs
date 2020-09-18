@@ -12,19 +12,23 @@ namespace DetergentData
             routes.MapRoute(
                 "Root",
                 "",
-                new 
-                    {controller = "Base",
-                        action = "RedirectToLocalized"}
+                new
+                {
+                    controller = "Base",
+                    action = "RedirectToLocalized"
+                }
             );
             routes.MapRoute(
                 "Default",
                 "{culture}/{controller}/{action}/{id}",
-                new {
+                new
+                {
                     culture = "dk",
                     controller = "Home",
                     action = "Index",
-                    id = UrlParameter.Optional },
-                new { culture = "en|dk" }
+                    id = UrlParameter.Optional
+                },
+                new {culture = "dk|en"}
             );
         }
     }
