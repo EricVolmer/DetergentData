@@ -8,6 +8,12 @@
     <e p="C:\Users\289663\source\repos\DetergentsData" t="IncludeFlat">
       <e p="DetergentData" t="IncludeRecursive">
         <e p="App_Data" t="Include" />
+        <e p="App_GlobalResources" t="Include">
+          <e p="Resource.Designer.cs" t="Include" />
+          <e p="Resource.dk.designer.cs" t="Include" />
+          <e p="Resource.dk.resx" t="Include" />
+          <e p="Resource.resx" t="Include" />
+        </e>
         <e p="App_Start" t="Include">
           <e p="BundleConfig.cs" t="Include" />
           <e p="FilterConfig.cs" t="Include" />
@@ -26,6 +32,7 @@
           <e p="Site.css" t="Include" />
         </e>
         <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
           <e p="CategoriesController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="ProductsController.cs" t="Include" />
@@ -41,15 +48,6 @@
         </e>
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
-        <e p="LocalizationAttribute.cs" t="Include" />
-        <e p="LocalizedControllerActivator.cs" t="Include" />
-        <e p="LocalResource" t="Include">
-          <e p="Resource.DA.resx" t="Include" />
-          <e p="Resource.DE.resx" t="Include" />
-          <e p="Resource.Designer.cs" t="Include" />
-          <e p="Resource.PL.resx" t="Include" />
-          <e p="Resource.resx" t="Include" />
-        </e>
         <e p="Models" t="Include">
           <e p="Category.cs" t="Include" />
           <e p="Model1.Context.cs" t="Include" />

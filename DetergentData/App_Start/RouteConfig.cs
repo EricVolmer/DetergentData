@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace DetergentData
@@ -11,13 +7,24 @@ namespace DetergentData
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-      //      routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "DefaultLocalized",
-                url: "{lang}/{controller}/{action}/{id}",
-                constraints: new { lang = @"(\w{2})|(\w{2}-\w{2})" },   // en or en-US
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                "Root",
+                "",
+                new 
+                    {controller = "Base",
+                        action = "RedirectToLocalized"}
+            );
+            routes.MapRoute(
+                "Default",
+                "{culture}/{controller}/{action}/{id}",
+                new {
+                    culture = "dk",
+                    controller = "Home",
+                    action = "Index",
+                    id = UrlParameter.Optional },
+                new { culture = "en|dk" }
             );
         }
     }

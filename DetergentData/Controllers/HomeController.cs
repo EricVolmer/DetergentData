@@ -1,17 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Globalization;
+using System.Threading;
 using System.Web.Mvc;
-using DetergentData.Models;
+
 
 namespace DetergentData.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
-        private ItemEntities db = new ItemEntities();
+       
         public ActionResult Index()
         {
+            Console.WriteLine("Current culture: " + CultureInfo.CurrentCulture.Name);
             return View();
         }
     }

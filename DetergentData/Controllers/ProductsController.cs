@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using DetergentData.Models;
 
@@ -12,7 +8,7 @@ namespace DetergentData.Controllers
 {
     public class ProductsController : Controller
     {
-        private ItemEntities db = new ItemEntities();
+        private readonly ItemEntities db = new ItemEntities();
 
         // GET: Products
         public ActionResult Index()
@@ -24,15 +20,9 @@ namespace DetergentData.Controllers
         // GET: Products/Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
+            if (id == null) return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            var product = db.Products.Find(id);
+            if (product == null) return HttpNotFound();
             return View(product);
         }
 
@@ -48,7 +38,9 @@ namespace DetergentData.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ProductID,EAN,Title,productName,productDescription,CategoryID,validFrom")] Product product)
+        public ActionResult Create(
+            [Bind(Include = "ProductID,EAN,Title,productName,productDescription,CategoryID,validFrom")]
+            Product product)
         {
             if (ModelState.IsValid)
             {
@@ -64,15 +56,9 @@ namespace DetergentData.Controllers
         // GET: Products/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
+            if (id == null) return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            var product = db.Products.Find(id);
+            if (product == null) return HttpNotFound();
             ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
             return View(product);
         }
@@ -82,7 +68,9 @@ namespace DetergentData.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProductID,EAN,Title,productName,productDescription,CategoryID,validFrom")] Product product)
+        public ActionResult Edit(
+            [Bind(Include = "ProductID,EAN,Title,productName,productDescription,CategoryID,validFrom")]
+            Product product)
         {
             if (ModelState.IsValid)
             {
@@ -90,6 +78,7 @@ namespace DetergentData.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
             ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
             return View(product);
         }
@@ -97,24 +86,19 @@ namespace DetergentData.Controllers
         // GET: Products/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
+            if (id == null) return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            var product = db.Products.Find(id);
+            if (product == null) return HttpNotFound();
             return View(product);
         }
 
         // POST: Products/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
+        [ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Product product = db.Products.Find(id);
+            var product = db.Products.Find(id);
             db.Products.Remove(product);
             db.SaveChanges();
             return RedirectToAction("Index");
@@ -122,10 +106,7 @@ namespace DetergentData.Controllers
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                db.Dispose();
-            }
+            if (disposing) db.Dispose();
             base.Dispose(disposing);
         }
     }
